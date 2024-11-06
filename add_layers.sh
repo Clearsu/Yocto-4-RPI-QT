@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cd build || exit 1
+source poky/oe-init-build-env
+
 bitbake-layers add-layer ../meta-raspberrypi
 bitbake-layers add-layer ../meta-customimage
 bitbake-layers add-layer ../meta-qt6
