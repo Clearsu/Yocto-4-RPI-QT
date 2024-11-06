@@ -1,5 +1,0 @@
-1. meta-raspberrypi
-2. meta-customimage
-3. meta-qt6
-4. meta-qttest
-5. meta-openembedded/meta-oe
