@@ -1,0 +1,6 @@
+poky
+meta-qt6
+meta-raspberrypi
+meta-openembedded
+build
+build-*
