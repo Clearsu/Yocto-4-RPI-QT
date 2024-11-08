@@ -47,12 +47,6 @@ inherit qt6-cmake
 
 DEPENDS += "qtbase qtdeclarative"
 
-EXTRA_OECMAKE = "-DCMAKE_PREFIX_PATH=${STAGING_DIR_TARGET}/usr/lib/cmake/Qt6"
-
-do_compile() {
-    cmake --build ${B}
-}
-
 do_install() {
     install -d ${D}${bindir}
     install -m 0755 ${B}/coffee ${D}${bindir}
