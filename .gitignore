@@ -4,3 +4,4 @@ meta-raspberrypi
 meta-openembedded
 build
 build-*
+*.log
