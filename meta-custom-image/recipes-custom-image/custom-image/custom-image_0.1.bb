@@ -19,6 +19,8 @@ IMAGE_INSTALL += "\
 	qtwayland \
 	qttools \
 	instrument-cluster \
+	weston \
+	weston-init \
 "
 
 
